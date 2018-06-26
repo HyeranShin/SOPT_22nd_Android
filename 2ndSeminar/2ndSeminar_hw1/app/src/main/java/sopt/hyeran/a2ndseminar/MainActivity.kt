@@ -15,10 +15,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 main_btn_home.isSelected = true
                 replaceFragment(HomeTab())
             }
-            main_btn_mine -> {
+            main_btn_search -> {
                 clearSelected()
-                main_btn_home.isSelected = true
-                replaceFragment(MineTab())
+                main_btn_search.isSelected = true
             }
             main_btn_add -> {
                 // intent: 액티비티 등의 전환이 일어날 때 호출이나 메세지를 전달하는 매개체
@@ -26,16 +25,27 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 intent.putExtra("add_image", R.drawable.add_image)  // 인텐트로 데이터 전달
                 startActivity(intent)   // 전환될 액티비티로 넘어갈때
             }
+            main_btn_news -> {
+                clearSelected()
+                main_btn_news.isSelected = true
+            }
+            main_btn_my -> {
+                clearSelected()
+                main_btn_my.isSelected = true
+                replaceFragment(MyTab())
+            }
         }
     }
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        super.onCreate(savedInstanceState)  // 부모 클래스의 동일한 메소드 호출
+        setContentView(R.layout.activity_main)  // 어떤 XML 레이아웃 파일과 매칭할 것인지 자바 소스 코드에서 설정
         addFragment(HomeTab())
         main_btn_home.isSelected = true
         main_btn_home.setOnClickListener(this)
-        main_btn_mine.setOnClickListener(this)
+        main_btn_search.setOnClickListener(this)
         main_btn_add.setOnClickListener(this)
+        main_btn_news.setOnClickListener(this)
+        main_btn_my.setOnClickListener(this)
     }
 
     // fragment: Activity를 구성하는 작은 모듈
@@ -57,6 +67,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     fun clearSelected(){
         main_btn_home.isSelected = false
-        main_btn_mine.isSelected = false
+        main_btn_search.isSelected = false
+        main_btn_news.isSelected = false
+        main_btn_my.isSelected = false
     }
 }

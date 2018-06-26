@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             main_btn_mine -> {
                 clearSelected()
-                main_btn_home.isSelected = true
+                main_btn_mine.isSelected = true
                 replaceFragment(MineTab())
             }
             main_btn_add -> {

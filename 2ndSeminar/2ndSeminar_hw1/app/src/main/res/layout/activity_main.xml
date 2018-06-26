@@ -6,6 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#e2e2e3"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#faf9fa"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/instagram"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/message"/>
+
+    </RelativeLayout>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,6 +73,7 @@
                 />
 
             <ImageView
+                android:id="@+id/main_btn_search"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
@@ -53,6 +89,7 @@
                 />
 
             <ImageView
+                android:id="@+id/main_btn_news"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
@@ -60,7 +97,7 @@
                 />
 
             <ImageView
-                android:id="@+id/main_btn_mine"
+                android:id="@+id/main_btn_my"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
