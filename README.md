@@ -18,11 +18,11 @@ facebook: https://www.facebook.com/groups/clubsopt/
 
 4차. Retrofit을 이용한 통신
 
-5차. 기타 이슈(Font, 각이 둥근 버튼), 안드로이드와 디자인 합동
+5차. 기타 이슈(Font, 각이 둥근 버튼), 디자인 합동
 
-6차. 
+6차. 내부DB(SharedPreference와 Realm)
 
-7차. 
+7차. 애니메이션
 
 8차. 페이스북 연동
 
