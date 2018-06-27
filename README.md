@@ -10,11 +10,11 @@ facebook: https://www.facebook.com/groups/clubsopt/
 
 ------------------------------------------------------------------------------------------------------------------------
 
-1차. Hello Android, kotlin 살펴보기, layout에 관하여
+1차. LinearLayout와 RelativeLayout
 
 2차. Activity와 Fragment
 
-3차. 게시판을 만들어보자
+3차. RecyclerView
 
 4차. 내부 DB를 다뤄보자
 
