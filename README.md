@@ -24,4 +24,6 @@ facebook: https://www.facebook.com/groups/clubsopt/
 
 7차. 
 
-8차. 페이스
+8차. 페이스북 연동
+
+
