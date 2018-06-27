@@ -16,12 +16,12 @@ facebook: https://www.facebook.com/groups/clubsopt/
 
 3차. RecyclerView
 
-4차. 내부 DB를 다뤄보자
+4차. Retrofit을 이용한 통신
 
-5차. 디자인 파트와 합동 세미나
+5차. 기타 이슈(Font, 각이 둥근 버튼), 안드로이드와 디자인 합동
 
-6차. retrofit을 이용한 통신
+6차. 
 
-7차. iOS파트, 서버파트와 합동 세미나
+7차. 
 
-8차. 앱잼 전 보충 세미나
+8차. 페이스
