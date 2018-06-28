@@ -6,8 +6,6 @@ site: http://sopt.org/wp/
 
 facebook: https://www.facebook.com/groups/clubsopt/
 
-22기 안드로이드 파트원으로 활동하면서 세미나 자료, 코드, 과제 정리
-
 ------------------------------------------------------------------------------------------------------------------------
 
 1차. LinearLayout와 RelativeLayout
