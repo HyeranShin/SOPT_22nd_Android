@@ -1,6 +1,6 @@
 # SOPT_22nd_Android_Seminar
 
-대학연합 IT벤창업동아리 SOPT
+대학연합 IT벤처창업동아리 SOPT
 
 site: http://sopt.org/wp/
 
