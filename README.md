@@ -4,7 +4,7 @@
 
 site: http://sopt.org/wp/
 
-facebook: https://www.facebook.com/groups/clubsopt/
+facebook: https://www.facebook.com/clubsopt/
 
 ------------------------------------------------------------------------------------------------------------------------
 
