@@ -1,10 +1,11 @@
-# SOPT_22nd_Android_Seminar
-
-대학연합 IT벤처창업동아리 SOPT
+## 대학연합 IT벤처창업동아리 SOPT
+22기 안드로이드 파트 활동 
 
 site: http://sopt.org/wp/
 
 facebook: https://www.facebook.com/clubsopt/
+
+![image](https://user-images.githubusercontent.com/38368820/43208603-c14a3002-9065-11e8-86da-3274c5183da2.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
